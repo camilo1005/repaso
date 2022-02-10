@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  background: #1e172f;
+  color: white;
+}
+.encabezado ul {
+  display: flex;
+  margin: 1%;
+  list-style: none;
+}
+.encabezado ul li {
+  margin: 10px 25px;
+}
+button {
+  background: none;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(137, 62, 213), rgb(8, 125, 213));
+}
+.contenedor1 {
+  display: flex;
+}
+.contenedor2 {
+  background-color: #2e2550;
+  color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 77vh;
+  width: 115vh;
+}
+
+.titulos {
+  font-size: 80px;
+}
+.parrafo {
+  font-size: 20px;
+}
+
+.contenedor3 {
+  background-image: url(./Plantilla_Repaso/hojasFondo.jfif);
+  background-size: cover;
+  padding: center;
+  padding: 1% 9%;
+  width: 29%;
+}
+.botones {
+  border: 1px solid #534c6c;
+  padding: 19px 13px;
+  border-radius: 6px;
+}
+
+.boton1 {
+  border: 1px solid white;
+  border-radius: 6px;
+  background-color: white;
+  text-decoration: none;
+  color: #f33495;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.boton2 {
+  border: 1px solid white;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 14px 55px
+}
+
+.titulo2 {
+  color: #f41486;
+  text-align: center;
+  font-size: 63px;
+}
+.contenedor4 {
+  display: flex;
+}
+.contenedor5 img {
+  width: 44%;
+  padding: 81px 40%;
+}
+.contenedor6 {
+  padding: 5% 0%;
+}
+.titulo3 {
+  font-size: 40px;
+  color: #c71972;
+}
+.parrafo2 {
+  font-size: 19px;
+}
+.titulo4 {
+  font-size: 28px;
+  color: #f41486;
+}
+
+.contenedor7 {
+  background: #1e172f;
+  height: 828px;
+}
+.titulo5 {
+  text-align: center;
+  color: white;
+  font-size: 53px;
+}
+.lorem {
+  text-align: center;
+  color: #96939d;
+}
+span{
+  color: #f41486;
+}
+
+.lista li{
+  text-decoration: none;
+  list-style: none;
+}
+.caja{
+  display: flex;
+  gap: 35px;
+  text-align: center;
+  justify-content: center;
+}
+.contenedor8{
+  border-radius: 5px;
+  height: 513px;
+  background-color: white;
+  width: 300px;
+}
+
+.contenedor9{
+  border-radius: 5px;
+  height: 513px;
+  background-color: white;
+  width: 300px;
+}
+
+.contenedor10{
+  border-radius: 5px;
+  height: 513px;
+  background-color: white;
+  width: 300px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.textofooter{
+  display: flex;
+  padding: 19px 10px ;
+}
+.cajita{
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  background-color: #f5f5f5;
+  align-items: center;
+}
+
+.contenedorprecio{
+  font-size: 33px;
+}
+.boton{
+  background-color: #f5f5f5;
+  padding: 21px
+}
+
+.boton button{
+  background: linear-gradient(to right, rgb(235, 102, 171), rgb(244, 21, 135));
+  padding: 14px 37px;
+}
+
+.boton3{
+  background-color: #f5f5f5;
+  padding: 21px
+}
+
+.boton3 button{
+  padding: 14px 37px;
+  background: none;
+  background-color: #1e172f;
+}
+
+.ultimo{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ultimo ul li{
+  list-style: none;
+}
+.lista2 ul li{
+  color:  #f41486;
+}
+
+.lista4 ul li{
+  color:  #1e172f;
+}
+
